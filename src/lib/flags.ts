@@ -3,7 +3,6 @@ import Rox from "rox-browser"
 export const flags = {
   newQuotePage: new Rox.Flag(),
   contrastButtons: new Rox.Flag(),
-  appointmentButton: new Rox.Flag(),
 }
 export const flagStore: {
   [key: string]: any
