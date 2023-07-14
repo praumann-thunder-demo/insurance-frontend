@@ -1,6 +1,6 @@
-FROM node:18-alpine as BUILDER
+FROM node:14-alpine as BUILDER
 WORKDIR /app
-COPY package.json package-lock.json /app/
+COPY package.json pnpm-lock.yaml /app/
 RUN npm install
 COPY . .
 RUN npm run build
