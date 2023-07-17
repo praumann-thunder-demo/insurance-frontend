@@ -1,5 +1,6 @@
 import React from "react";
 import AppLayout from "../components/layouts/appLayout";
+import { flags, flagStore } from "../lib/flags";
 import { classNames } from "../lib/utils";
 import {
   AcademicCapIcon,
