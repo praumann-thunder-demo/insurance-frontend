@@ -43,7 +43,7 @@ const HomeHero = () => {
                     flags.contrastButtons.isEnabled()
                       ? "text-yellow-700 hover:bg-yellow-50"
                       : "text-blue-700 hover:bg-blue-50"
-                  } sm:px-8`}      
+                  } sm:px-8`} 
                  >
                   Get started
                 </Link>
